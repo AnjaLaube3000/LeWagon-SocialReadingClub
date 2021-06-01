@@ -1,0 +1,54 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: rgba(1,1,1,0);
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+a.nav-light {
+  color: $creme;
+  text-decoration: none;
+}
+
+.nav-item {
+  margin-right: 22px;
+  font-weight: 400px;
+  color: $dark-blue-lighter
+}
+
+// links nav-bar light
+.navbar-nav .nav-item .link-light {
+  color: $creme;
+  opacity: 0.8;
+}
+
+.navbar-nav .nav-item .link-light:hover {
+  color: $creme;
+  opacity: 1;
+}
+
+// links nav-bar dark
+
+.navbar-nav .nav-item .link-dark {
+  color: $dark-blue;
+  opacity: 0.8;
+}
+
+.navbar-nav .nav-item .link-dark:hover {
+  color: $dark-blue;
+  opacity: 1;
+}
+
+.dp-down-r {
+  right: 16px;
+}
+
+
+
+

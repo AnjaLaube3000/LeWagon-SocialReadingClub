@@ -1,0 +1,27 @@
+// CSS for home-page
+.background-img {
+  background-image: asset-url("LandingPageImage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-page-header {
+  color: $creme;
+  font-family: "Moret Regular";
+  text-align: center;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+.home-card {
+  background-color: transparent;
+  display:flex;
+  justify-content: center;
+}
+
+.loc-search {
+  margin-bottom: 20px;
+}
+
+
+

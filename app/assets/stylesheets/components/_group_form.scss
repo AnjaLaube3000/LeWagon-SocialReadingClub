@@ -1,0 +1,252 @@
+//Whole Form
+.whole-form {
+  margin: 50px auto;
+  display: flex;
+  color: $dark-blue;
+}
+
+.createform-container {
+  margin: 0 auto;
+  width: 800px;
+}
+
+// Top Section
+.top-section {
+  text-align: center;
+}
+
+.question {
+  font-family: "Moret Regular";
+  font-size: 38px;
+  padding-bottom: 50px;
+}
+
+.choices {
+  margin-bottom: none!important;
+}
+.choices__inner {
+  border: none!important;
+  background-color: $custom-grey!important;
+  font-size: 20px!important;
+}
+
+.choices__list--dropdown {
+  font-size: 20px!important;
+  border: none!important;
+  background-color: $custom-grey!important;
+}
+
+.choices__list {
+  font-size: 20px!important;
+  border: none!important;
+  background-color: $custom-grey!important;
+}
+
+.line-bottom {
+  border-bottom: 1.5px solid $dark-blue-lighter;
+  padding-bottom: 10px;
+}
+
+.book-details{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.form-image {
+  display: flex;
+  align-items: center;
+}
+
+.book-form-desc {
+  max-width: 450px;
+  font-family: Montserrat;
+  font-weight: 300;
+}
+
+.hidden {
+  display: none;
+}
+
+#book-request {
+  font-weight: 500;
+}
+
+#tag-request {
+  font-weight: 500;
+  color: $dark-blue;
+  border: none!important;
+  background-color:$custom-grey;
+  height: 30px;
+  padding-bottom: none!important;
+  -webkit-appearance: menulist;
+  -moz-appearance: menuList;
+  box-shadow: none!important;
+}
+
+
+
+//Bottom Part of Form
+.form-bottom-parent {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.form-bottom {
+  text-align: center;
+}
+
+.form-bottom h2 {
+  font-family: Moret Regular;
+  font-size: 38px;
+  text-align: center;
+}
+
+#group-name {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  align-items: flex-start;
+}
+
+#host_message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+// Language Section
+#language-select {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 35px;
+}
+
+#language-request {
+  margin-left: 10px;
+  font-family: Montserrat;
+  font-weight: 500;
+  color: $dark-blue;
+  background-color:$custom-grey;
+  height: 30px;
+  width: 100px;
+  border: none!important;
+  padding-bottom: none!important;
+  -webkit-appearance: menulist;
+  -moz-appearance: menuList;
+  box-shadow: none!important;
+}
+
+//Location
+.eventlocation-parent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+#label-field-location {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 8px;
+}
+
+.eventlocation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.datepicker form-control input
+
+//Time
+.eventtime-parent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+#label-field-time {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 8px;
+}
+
+.eventtime {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.datepicker-input{
+  background-color: $custom-grey!important;
+  border: none;
+  border-bottom: 1px solid #d3ccc9;
+  padding-left: 10px;
+}
+
+.timepicker{
+  height: 40px;
+  background-color: $custom-grey;
+  border: none;
+  border-bottom: 1px solid #d3ccc9;
+  padding-left: 10px;
+}
+
+#members {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+//Styling InputField and LabelField
+.input-field {
+  display: flex;
+  // text-align: center;
+  background-color: $custom-grey;
+  overflow: auto;
+  height: 45px;
+  max-height: 135px;
+  width: 100%;
+  border-style: none;
+  border-bottom: 1px solid #d3ccc9;
+  padding-left: 10px;
+  margin-top: 8px;
+  align-content: flex-end;
+}
+
+.input-field::placeholder {
+  color: $turquoise;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.label-field {
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0 14px 0 8px;
+}
+
+//Button
+.btn-flat-create-group {
+  color: $turquoise;
+  border: 1px solid $turquoise;
+  background-color: $creme;
+  padding: 8px 24px;
+  border-radius: 30px;
+  transition: background 0.3s ease;
+  margin-top: 30px;
+}
+
+.btn-flat-create-group:hover {
+  color: $creme;
+  background-color: $turquoise;
+}

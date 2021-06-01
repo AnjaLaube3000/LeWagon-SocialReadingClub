@@ -1,0 +1,13 @@
+// position forms
+
+.form-position-start {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.no-border-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+

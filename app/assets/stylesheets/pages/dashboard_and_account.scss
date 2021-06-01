@@ -1,0 +1,90 @@
+.dashboard_and_account {
+ margin-top: 50px;
+}
+
+.tab-content {
+  margin-top: 30px;
+}
+
+.current-reads {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-current-reads {
+  color: $dark-blue;
+}
+
+#home-tab {
+  font-family: Moret Regular;
+  font-size: 48px;
+}
+
+#profile-tab {
+  font-family: Moret Regular;
+  font-size: 48px;
+}
+
+.nav-pills {
+  width: 40%;
+  margin: auto;
+}
+
+.nav-pills .nav-link.active {
+  color: $turquoise;
+  background-color: $creme;
+}
+
+.nav-pills .nav-link {
+  color: $dark-blue;
+  background-color: $creme;
+}
+
+.nav-item {
+  color: #383748;
+}
+
+.user-profile-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.user-profile {
+}
+
+.my-account-top {
+  display:flex;
+}
+.my-account-top-right {
+  display: inline-grid;
+}
+
+.display-line {
+  width: 350px;
+  border-bottom: 1px solid;
+  border-color: $dark-blue-lighter;
+  text-align: left;
+}
+
+.fake-button {
+  color: #6bc491;
+  font-size: 0.8rem;
+  margin-top: auto;
+  padding-top: 20px;
+}
+
+.my-account-bottom {
+  padding-top: 30px;
+  text-align: left;
+}
+
+.title-mybooks {
+    padding-top: 65px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    font-weight: bold;
+}

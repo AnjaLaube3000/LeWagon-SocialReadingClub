@@ -1,0 +1,137 @@
+body {
+  background-color: $creme;
+}
+
+.pro-con{
+  width: 50%;
+  margin: 50px auto;
+}
+
+.user-avatar-public {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.user-profile {
+  margin: 30px auto;
+  width: 50%;
+}
+
+.profile-heading{
+  text-align: center;
+  margin-right: auto;
+  // padding-top: 20px;
+}
+
+.user-bio{
+  text-align: justify;
+}
+
+.user-profile h1 {
+  font-family: "Moret Regular";
+  font-size: 48px;
+  color: $dark-blue;
+}
+
+.nil-groups {
+  border: 2px solid $turquoise-lighter;
+  border-radius: 4px;
+}
+
+.nil-read{
+  font-family: montserrat;
+  font-size: 18px;
+  text-align: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 15px 30px;
+}
+
+.reading-title {
+  margin-top: 65px;
+}
+
+.reading {
+  text-align: center;
+}
+
+.reading h2 {
+  font-family: montserrat;
+  font-weight: regular;
+  font-size: 18px;
+}
+
+.user-bio p {
+  font-family: montserrat;
+  font-weight: regular;
+  font-size: 18px;
+}
+
+.reading-cards {
+  display: flex;
+  margin: 50px auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.reading-card-box {
+  text-align: -webkit-center;
+  margin-bottom: 60px;
+}
+
+.reading-card {
+  position: relative;
+  display: flex;
+  padding: 0px 30px;
+  padding-bottom: 30px;
+  flex-direction: column;
+}
+
+.book-image{
+  flex: 1;
+  object-fit: fill;
+}
+
+.resub {
+  flex: 1;
+}
+
+.reading-subtitle {
+  font-size: 0.9rem;
+  margin-bottom: 0rem;
+  max-width: fit-content;
+  margin: 5px auto;
+}
+
+.user-count-down {
+ position: absolute;
+ width:50px;
+ height:50px;
+ border-radius:25px;
+ color: $creme;
+ text-align:center;
+ top: -25px;
+ left: 6px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+#user-number {
+  font-size: 16px;
+  color: #fdf8f4;
+}
+
+#user-subday {
+  font-size: 0.6rem;
+  color: #fdf8f4;
+}
+
+.bc-red {
+  background: $magenta-red
+}
+
+.bc-green {
+  background: $turquoise-lighter;
+}

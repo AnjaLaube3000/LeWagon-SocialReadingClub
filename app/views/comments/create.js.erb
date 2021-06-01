@@ -1,0 +1,19 @@
+// add a comment
+
+function refreshForm(innerHTML) {
+  const newCommentForm = document.getElementById("new_comment");
+  newCommentForm.innerHTML = innerHTML;
+  newCommentForm.reset();
+}
+
+function addComment(commentHTML) {
+  const comments = document.getElementById("comments");
+  comments.insertAdjacentHTML('afterbegin', commentHTML);
+}
+
+<% if @comment.errors.any? %>
+  refreshForm('<%= j render "comments/form", group: @group, comment: @comment %>');
+<% else %>
+  addComment('<%= j render "comments/show", comment: @comment %>');
+  refreshForm('<%= j render "comments/form", group: @group, comment: Comment.new %>');
+<% end %>
