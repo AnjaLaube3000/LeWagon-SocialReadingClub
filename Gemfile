@@ -1,37 +1,40 @@
 source 'https://rubygems.org'
+ruby '2.6.7'
 
 gem 'bootsnap', require: false
 gem 'devise'
-gem 'jbuilder', '~> 2.0'
-gem 'pg', '~> 0.21'
+gem 'jbuilder'
+gem 'pg'
 gem 'puma'
-gem 'rails', '5.2.3'
+gem 'rails'
 gem 'redis'
 gem 'geocoder'
 gem 'pundit'
 
 gem 'autoprefixer-rails'
-gem 'font-awesome-sass', '~> 5.6.1'
+gem 'font-awesome-sass'
 gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
-gem 'acts-as-taggable-on', '~> 6.0'
+gem 'acts-as-taggable-on'
+gem 'mimemagic',  '~> 0.4.2'
+gem 'bootstrap', '~> 4.2'
 
-gem 'cloudinary', '~> 1.9.1'
-gem 'carrierwave', '~> 1.2'
+gem 'cloudinary'
+gem 'carrierwave'
 
 gem "algoliasearch-rails"
 
 group :development do
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console'
 end
 
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
-  gem 'listen', '~> 3.0.5'
+  gem 'listen'
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-watcher-listen'
   gem 'dotenv-rails'
 end
